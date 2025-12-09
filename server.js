@@ -1,7 +1,3 @@
-const express=require('express');
-const cors=require('cors');
-const app=express();
-app.use(cors());
-app.use(express.json());
-app.get('/',(req,res)=>res.send('Atex API OK'));
-app.listen(process.env.PORT||3000,()=>console.log('Running'));
+app.listen(process.env.PORT || 3000, () => {
+  console.log("API rodando");
+});
