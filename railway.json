@@ -1,4 +1,11 @@
 {
-  "build": "cd backend && npm install",
-  "start": "cd backend && npm start"
+  "$schema": "https://railway.app/railway.schema.json",
+  "build": {
+    "command": "npm install",
+    "directory": "backend"
+  },
+  "start": {
+    "command": "npm start",
+    "directory": "backend"
+  }
 }
